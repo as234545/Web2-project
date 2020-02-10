@@ -1,0 +1,129 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Programming  E-Training | Course Home Page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<div class="header_right">
+				<div class="top_menu">
+					<a href="index.html">Sign out</a>
+				</div>
+				
+				<div>
+					<h3></h3> 
+				</div>
+			</div>
+			
+			<div class="logo">
+				<h1><a href="index.html" title="E-Center"><span class="dark"><img src="images/logo.png" alt="Logo" title="Logo"/> | </span><span class="logoTitle">Programming  <span class="dark">E-Training</span> </span></a></h1>
+			</div>
+			
+		</div>
+
+		<div class="main_menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Courses</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div class="body_content">
+		
+			<h2>Welcome to IT222</h2>
+			
+			<p id="course_menu" style="float=right;">
+				[<a href="#">Enrol</a> | <a href="#">Drop</a>]
+			</p>
+			
+			</br />
+			</br />
+			
+			<div>
+				<h2>Course Information</h2>
+				<table style="width:100%;">
+					<tbody>
+						<tr>
+							<th width="15%" style="text-align: right;">Name: </th>
+							<td style="text-align: left;">Course Name</th>
+						</tr>
+						<tr>
+							<th style="text-align: right;">Field : </th>
+							<td style="text-align: left;">Course Field</th>
+						</tr>
+						<tr>
+							<th style="text-align: right;">Instructor : </th>
+							<td style="text-align: left;">Course Instructor</th>
+						</tr>
+						<tr>
+							<th style="text-align: right;">Description : </th>
+							<td style="text-align: left;">Course Description</th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+			<div id="enrolled_students">
+				<h2>Enrolled students</h2>
+				<table>
+					<tbody>
+						<tr>
+							<th width="20%">ID</th>
+							<th width="40%">Full Name</th>
+							<th width="40%">Email</th>
+						</tr>
+						<tr>
+							<td>100121</td>
+							<td>Student Name</td>
+							<td>Student Email</td>
+						</tr>
+						<tr>
+							<td>100122</td>
+							<td>Student Name</td>
+							<td>Student Email</td>
+						</tr>
+						<tr>
+							<td>100123</td>
+							<td>Student Name</td>
+							<td>Student Email</td>
+						</tr>
+						<tr>
+							<td>…</td>
+							<td>…</td>
+							<td>…</td>
+						</tr>
+						<tr>
+							<td>…</td>
+							<td>…</td>
+							<td>…</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			
+			
+		</div>
+		
+		<div class="footer">
+			<div class="copyright">Copyright &copy; <script type="text/javascript">document.write( new Date().getFullYear() );</script> <a href="index.html">Programming  E-Training</a> All rights reserved.
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		var type = getUrlVars()["type"];
+		
+		if (type != 2) {
+			document.getElementById("course_menu").innerHTML = "";
+		}
+	</script>
+	
+</body>
+</html>

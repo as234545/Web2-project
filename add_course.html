@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Programming  E-Training | Add Course</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<div class="logo">
+				<h1><a href="index.html" title="E-Center"><span class="dark"><img src="images/logo.png" alt="Logo" title="Logo"/> | </span><span class="logoTitle">Programming  <span class="dark">E-Training</span> </span></a></h1>
+			</div>
+		</div>
+
+		<div class="main_menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Courses</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div class="body_content">
+
+			<form id="AddCourseForm" action="instructor_home_page.html" method="POST" style="width:55%; margin: 0 auto;" > 
+				<h1>Add Course</h1>
+				<fieldset class="form-holder">
+					<legend>Course Information</legend>
+					
+					<label class="field-label" for="Title">Title*</label>
+					<input class="text-field" id="Title" name="Title" type="text" value="" required>
+
+					<label class="field-label" for="Field">Field *</label>
+					<input class="text-field"id="Field" name="Field" type="text" value="" required>
+					
+					<label class="field-label" for="Description">Description</label>
+					<textarea class="text-area" cols="60" style="width:100%" id="Description" name="Description" rows="4"></textarea>
+
+					<br />
+					<input name="addCourseButton" value="Add" id="addCourseButton" class="buttonPrimary" style="display:bolck; float: right;" type="submit">
+				</fieldset>
+
+			</form>
+
+		</div>
+		
+		<div class="footer">
+			<div class="copyright">Copyright &copy; <script type="text/javascript">document.write( new Date().getFullYear() );</script> <a href="index.html">Programming  E-Training</a> All rights reserved.
+			</div>
+		</div>
+	</div>
+</body>
+</html>
